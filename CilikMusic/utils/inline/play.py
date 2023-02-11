@@ -48,6 +48,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
         ],
+        [
+            InlineKeyboardButton(
+                text="Publik Virtual", url=f"https://t.me/Publik_Virtual"),
+        ],
     ]
     return buttons
 
