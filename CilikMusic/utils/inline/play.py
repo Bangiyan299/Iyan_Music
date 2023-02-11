@@ -50,7 +50,9 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="Publik Virtual", url=f"https://t.me/Publik_Virtual"),
+                text="Group PV", url=f"https://t.me/Publik_Virtual"),
+            InlineKeyboardButton(
+                text="Channel", url=f"https://t.me/bang_iyan"),
             ],
         ]
     
@@ -209,6 +211,12 @@ def slider_markup(
                 callback_data=f"slider F|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
         ],
+        [
+            InlineKeyboardButoon(
+                text="Group PV", url=f"https://t.me/Publik_Virtual"),
+            InlineKeyboardButton(
+                text="Channel", url=f"https://t.me/bang_iyan"),
+        ],
     ]
     return buttons
 
@@ -248,6 +256,12 @@ def panel_markup_1(_, videoid, chat_id):
                 text="▶️",
                 callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="Group PV", url=f"https://t.me/Publik_Virtual"),
+            InlineKeyboardButton(
+                text="Channel", url=f"https://t.me/bang_iyan"),
         ],
     ]
     return buttons
