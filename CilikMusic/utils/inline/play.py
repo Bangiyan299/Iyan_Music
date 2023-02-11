@@ -261,7 +261,7 @@ def panel_markup_1(_, videoid, chat_id):
             InlineKeyboardButton(
                 text="Group PV", url=f"https://t.me/Publik_Virtual"),
             InlineKeyboardButton(
-                text="Channel", url=f"https://t.me/bang_iyan"),
+                text="Channel Yan", url=f"https://t.me/bang_iyan"),
         ],
     ]
     return buttons
